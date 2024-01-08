@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <title>Movie site</title>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        yellow: '#FECC02',
+                        gray: '#FFFFFF',
+                    },
+                    fontFamily: {
+                        bebas: ["Bebas Neue", "sans-serif"],
+                        montserrat: ['Montserrat', 'sans-serif'],
+
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="h-20 ">
+            <div class="flex justify-between items-center h-20 mx-auto w-full max-w-7xl">
+                <h1 class="font-bebas text-2xl">Jhaka Naka Production</h1>
+                <ul class="flex font-bebas gap-8 text-lg">
+                    <li>About US </li>
+                    <li>our Movies</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+</body>
+
+</html>
